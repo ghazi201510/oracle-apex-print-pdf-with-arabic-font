@@ -22,7 +22,7 @@
  "oracle" : { 
     "versions" : ["12.2.0.1", "19.1.0.1"], 
     "apex" : { 
-      "versions" : ["24.1.0"], 
+      "versions" : ["24.1.5"], 
       "plugin" : { 
         "internalName" : "GHAZI_JSPDF", 
         "type" : "dynamic action", 
