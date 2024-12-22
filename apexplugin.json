@@ -1,7 +1,7 @@
 { 
   "name" : "oracle-apex-print-pdf-with-arabic-font", 
   "version" : "1.0", 
-  "description" : "من المفيد توجيه المستخدمين خلال التطبيق، أو منحهم معالج التشغيل الأول لشرح أجزاء من التطبيق.", 
+  "description" : "I developed this plugin to find a solution for Arabic language when printing to PDF and the ability to respond to printing large data quickly in oracle apex.", 
   "keywords" : ["PDF ", "printing", "oracle Apex ", "Arabic font"], 
   "homepage" : "https://github.com/ghazi201510", 
   "bugs" : { 
