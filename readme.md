@@ -1,3 +1,5 @@
+#"oracle-apex-print-pdf-with-arabic-font"
+
 I developed this plugin to find a solution for Arabic language when printing to PDF and the ability to respond to printing large data quickly in oracle apex.
 
 Contact number: +967734856258
