@@ -1,0 +1,34 @@
+{ 
+  "name" : "oracle-apex-print-pdf-with-arabic-font", 
+  "version" : "1.0", 
+  "description" : "من المفيد توجيه المستخدمين خلال التطبيق، أو منحهم معالج التشغيل الأول لشرح أجزاء من التطبيق.", 
+  "keywords" : ["PDF ", "printing", "oracle Apex ", "Arabic font"], 
+  "homepage" : "https://github.com/ghazi201510", 
+  "bugs" : { 
+    "url" : "https://github.com/ghazi201510", 
+    "email" : "ghazi734@hotmail.com" 
+  }, 
+  "license" : "MIT", 
+  "commercial" : "No", 
+  "author" : { 
+    "name" : "Ghazi Hezam", 
+    "email" : "ghazi734@hotmail.com", 
+    "url" : "https://www.linkedin.com/in/ghazi-hezam-07a581b9/" 
+  }, 
+  "repository" : { 
+    "type" : "git", 
+    "url" : "https://github.com/ghazi201510/oracle-apex-print-pdf-with-arabic-font.git" 
+  }, 
+ "oracle" : { 
+    "versions" : ["12.2.0.1", "19.1.0.1"], 
+    "apex" : { 
+      "versions" : ["24.1.0"], 
+      "plugin" : { 
+        "internalName" : "GHAZI_JSPDF", 
+        "type" : "dynamic action", 
+        "demo" : "https://apex.oracle.com/pls/apex/r/ghazidb/jspdf-plugin/home?session=106011180333103", 
+        "previewImage" : "https://github.com/ghazi201510/oracle-apex-print-pdf-with-arabic-font/blob/main/PLUGIN.gif" 
+      } 
+    } 
+  } 
+}
