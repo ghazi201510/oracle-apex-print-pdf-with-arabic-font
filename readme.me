@@ -38,6 +38,48 @@ Attribute 5: Font family (optional, defaults to "Amiri").
 
 Attribute 6: Font size (optional, defaults to 12).
 
+
+How to use :
+- Create Button .
+- Create a Dynamic Action: Create a dynamic action on the page where you want to trigger the PDF generation.
+
+Configure Dynamic Action:
+
+Action: Set the action type to "jspdf print pdf plugin".
+
+ 
+ 
+Enter Plugin Attributes: In the dynamic action's "Attributes" section, set the following:
+
+ 
+
+Attribute 1: Set the SQL query to fetch data for the report.
+
+Attribute 2: Set the desired filename for the PDF.
+
+Other Attributes: Configure any other desired attributes as needed.
+
+Example:
+
+-- Attribute 1 (SQL Query)
+select  EMPNO,
+     ENAME,
+     JOB,
+    MGR,
+     HIREDATE,
+    SAL,
+      COMM,
+     DEPTNO 
+ from EMP EMP;
+
+-- Attribute 2 (Filename)
+employee_report
+
+-- Attribute 3 (Title)
+Employee Report
+
+-- Attribute 4 (Table Color)
+#FFCC00
 Attribute 7: Column to group data by (optional).
 
 Attribute 8: Column to calculate totals for (optional).
