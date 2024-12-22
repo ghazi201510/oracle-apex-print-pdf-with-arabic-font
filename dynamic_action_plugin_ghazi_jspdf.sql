@@ -33,7 +33,7 @@ prompt APPLICATION 89827 - jspdf plugin
 -- Application Export:
 --   Application:     89827
 --   Name:            jspdf plugin
---   Date and Time:   04:00 Sunday December 22, 2024
+--   Date and Time:   04:14 Sunday December 22, 2024
 --   Exported By:     GHAZI734@HOTMAIL.COM
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -146,11 +146,10 @@ wwv_flow_imp_shared.create_plugin(
 '        doc.text(title, billToX, yPosition, { align: ''center'' });',
 '        yPosition += 20; // Move down for the next line',
 '    }',
-'    doc.text(35, 25, title);  ',
-'    // Add a blank line',
-'    doc.setFontSize(15);',
-'    doc.setTextColor(100, 100, 100); // Gray color',
-'    doc.text(title, billToX, yPosition, { align: ''center'' });',
+'  //  doc.text(35, 25, title);  ',
+'     //doc.setFontSize(15);',
+'    //doc.setTextColor(100, 100, 100); // Gray color',
+'   // doc.text(title, billToX, yPosition, { align: ''center'' });',
 '    yPosition += 10; // Move down for the next line',
 '',
 '    rgbcode = hexToRgb(tablecolor);',
@@ -271,7 +270,7 @@ wwv_flow_imp_shared.create_plugin(
 ,p_ajax_function=>'json_ajax'
 ,p_standard_attributes=>'BUTTON:REGION'
 ,p_substitute_attributes=>true
-,p_version_scn=>15595203212403
+,p_version_scn=>15595204376303
 ,p_subscribe_plugin_settings=>true
 ,p_version_identifier=>'1.0'
 ,p_about_url=>'https://github.com/ghazi201510'
