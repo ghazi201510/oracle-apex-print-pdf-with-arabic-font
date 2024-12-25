@@ -3,6 +3,7 @@
 I developed this plugin to find a solution for Arabic language when printing to PDF and the ability to respond to printing large data quickly in oracle apex.
 
 Contact number: +967734856258
+
 email : ghazi734@hotmail.com
 
 likedin : (https://www.linkedin.com/in/ghazi-hezam-078a58139?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
