@@ -3,6 +3,8 @@
 I developed this plugin to find a solution for Arabic language when printing to PDF and the ability to respond to printing large data quickly in oracle apex.
 
 Contact number: +967734856258
+email : ghazi734@hotmail.com
+likedin : (https://www.linkedin.com/in/ghazi-hezam-078a58139?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 APEX Plugin: jspdf print pdf plugin.
 This plugin allows you to dynamically generate PDF reports from data retrieved from your APEX application.
@@ -88,7 +90,7 @@ Attribute 8: Column to calculate totals for (optional).
 
 Attribute 9: Comma-separated list of page items to submit with the AJAX request (optional).
 
-![image](https://github.com/ghazi201510/oracle-apex-print-pdf-with-arabic-font/blob/main/PLUGIN.gif)
+![image](https://raw.githubusercontent.com/ghazi201510/oracle-apex-print-pdf-with-arabic-font/master/PLUGIN.gif)
 
 
 See demo and example:  [demo page](https://apex.oracle.com/pls/apex/r/ghazidb/jspdf-plugin/home?session=104825994354775) 
